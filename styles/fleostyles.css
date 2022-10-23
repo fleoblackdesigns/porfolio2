@@ -1,0 +1,32 @@
+/* unofficial stylesheet for Porfolio */
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  /* This style below will be inherited */
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+}
+div {border-color: red;}
+
+
+/* sitewide links */
+a:visited {
+  color: #F2921D;
+}
+
+.jumbostyle {background-color: lightblue;
+  border: 1px red;
+}
+
+.flexnav1 {background-color: rgb(17, 183, 238);
+        width: 100px; 
+        border-color: red;
+        border-radius: 1px;
+}
