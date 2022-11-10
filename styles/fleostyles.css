@@ -2,31 +2,292 @@
 p {
   margin-top: 0;
   margin-bottom: 0;
+  color: white;
 }
+
+.topNav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flexContainer{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #F20544;
+  flex-direction: column;
+}
+
+#project {
+  width: 33%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+.projectOverview {
+  width: 66%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+.gridContainer {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 150px 250px; /*Make the grid smaller than the container*/
+  gap: 20px;
+  padding: 5px;
+}
+
+.gridContainer > div {
+  background-color: (#23272F 0.8);
+  padding: 5px 0;
+  }
+
+
+.imgProject {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: aqua;
+  height: 130px;
+
+}
+#gridsample {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 33% 33% 33% 33% 33%;
+}
+
+.logoPlaceholder {
+    background-color: lightblue;
+    width: 100px;
+  }
+
+.myworkHeading {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4e4e4e; 
+  border-color: red;
+  border-style: solid;
+  align-items:center;
+  align-self: center;
+  align-content: center;
+  vertical-align: middle;
+    
+}
+
+.myworkDesc {
+  border-radius: 1px; 
+  border-color: red;
+  border-style: solid; 
+  font: 500; 
+  color: white;
+  align-content: flex-start;
+  font-family: Abril Fatface;
+  text-align: center;
+  }
+
+  .ProjectDesc {
+    border-radius: 1px; 
+    border-color: rgb(2, 12, 200);
+    border-style: solid; 
+    font: 500; 
+    color: white;
+    font-family: Abril Fatface;
+    flex-direction: column;
+    }
+
+.skillDesc{
+  border-radius: 1px;
+  border-style: solid;
+  border-color: deeppink;
+  width: 200px;
+  display: block;
+  margin: auto;
+  }
+
+.skillDesc2{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: deeppink;
+    width: 150px;
+    }
+
+
 
 body {
   /* This style below will be inherited */
-  font-family: Roboto, Arial;
+  font-family: Roboto, Arial, Abril Fatface;
   margin: 0;
-  padding-top: 80px;
-  padding-left: 96px;
+  padding-top: 55px;
+  padding-left: 80px;
   padding-right: 24px;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(0, 0, 0);
 }
-div {border-color: red;}
-
 
 /* sitewide links */
 a:visited {
   color: #F2921D;
 }
+/* mouse over link */
+a:hover {
+  color: #F2B200
+}
 
-.jumbostyle {background-color: lightblue;
+/* selected link */
+a:active {
+  color: #F20544
+}
+
+.jumbostyle {
+  background-color: lightblue;
   border: 1px red;
 }
 
-.flexnav1 {background-color: rgb(17, 183, 238);
-        width: 100px; 
-        border-color: red;
-        border-radius: 1px;
+.flexnav1 {
+  background-color: rgb(17, 183, 238);
+  width: 100px;
+  border-color: red;
+  border-radius: 1px;
 }
+
+
+/* accordian on Resume */
+.resumeaccopen {
+  background-color: #F20544;
+  border-color: #F20544;
+}
+
+
+.flexstyle {
+  display: flex;
+  flex-direction: row;
+  border-color: rgb(160, 0, 0);
+}
+
+.footer1 {
+  background-color: lightblue;
+  
+}
+
+.mainfooter {
+  margin-top: 30px;
+  height: 125px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(160, 0, 0);
+  background-color: #1B1F27;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer2 {
+  margin: 1px;
+  color: #F1F3F9;
+  }
+
+.topbar {
+  background-color: lightpink;
+  flex: 1;
+  transition-duration: 0.4s;
+
+}
+
+.CTA {
+  background-color: #23272F;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+}
+
+.CTA:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.menuitem {
+  background-color: lightblue;
+  flex: 1;
+  border-color: #f44336;
+  border-width: 1px;
+}
+
+.logo2 {
+  background-color: lightpink;
+  width: 120px;
+}
+
+
+.blogcontent {
+  background-color: lightblue;
+  width: 200px;
+  padding:5px
+  }
+
+.logo1 {
+  background-color: #23272F; 
+  border-color: red;
+  border-radius: 1px}
+
+
+.seperator {
+  background-color: lightpink;
+  font-size: 38px;
+  font-style: normal;
+  font-weight:700;}
+
+  .gradient {
+    /* Set the background */
+    background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%); 
+    /* Mask the color to the text, and remove the rest */
+    -webkit-background-clip: text;
+    /*Makes the text fill color value transparent so the masked 
+    background color comes through */
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#mainbody {
+  margin-top: 30px;
+  height: 700px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f44336;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.feetsection {
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f44336;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width:  480px) {
+#footer3 {float: left;}
+}
+  
