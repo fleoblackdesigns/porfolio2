@@ -2,8 +2,13 @@
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
-}
+  color: #FDFDFD;
+  }
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Advent Pro', 'SF Pro', 'Candal' sans-serif;
+  }
+
 
 .topNav {
   margin-top: 30px;
@@ -126,7 +131,6 @@ p {
 
 body {
   /* This style below will be inherited */
-  font-family: Roboto, Arial, Abril Fatface;
   margin: 0;
   padding-top: 55px;
   padding-left: 80px;
@@ -136,17 +140,23 @@ body {
 
 /* sitewide links */
 a:visited {
-  color: #F2921D;
+  color: #f2791d;
 }
 /* mouse over link */
 a:hover {
-  color: #F2B200
+  color: #F2B200;
 }
 
 /* selected link */
 a:active {
-  color: #F20544
-}
+  color: #F20544;
+ }
+
+ a:link {
+  color: #F20544;
+ }
+
+
 
 .jumbostyle {
   background-color: lightblue;
@@ -181,7 +191,7 @@ a:active {
 
 .mainfooter {
   margin-top: 30px;
-  height: 125px;
+  height: 200px;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(160, 0, 0);
@@ -230,9 +240,9 @@ a:active {
   border-width: 1px;
 }
 
-.logo2 {
-  background-color: lightpink;
-  width: 120px;
+img{
+  width: 100%;
+  height: auto;
 }
 
 
@@ -278,7 +288,7 @@ a:active {
 
 .feetsection {
   margin-top: 30px;
-  height: 70px;
+  height: 150px;
   border-width: 1px;
   border-style: solid;
   border-color: #f44336;
