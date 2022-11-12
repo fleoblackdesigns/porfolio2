@@ -37,31 +37,21 @@
       flex-direction: row;
     ">
     <div class="menuitem" "><a href=" ../porfolio2/index.html">Home</a></div>
-    <div class="menuitem"><a href="../porfolio2/aboutme2.html">About Me</a></div>
+    <div class="menuitem"><a href="../porfolio2/porfolio2.html">About Me</a></div>
     <div class="logo2" "><a href=" #">fleoblackdesigns</a></div>
     <div class="menuitem"><a href="#">Current Goals</a></div>
     <div class="menuitem"><a href="../porfolio2/porfolio2.html">Porfolio</a></div>
     <div class="menuitem"><a href="../porfolio2/resume2.html">Resume</a></div>
   </div>
   <div id="mainbody">
-    <div class="blogcontent">
-      <h3><a href="#"></a>Archives</a></h3>
-      <h4><a href="#"></a>November 2022</a></h4>
-      <h3><a href="#"></a>Categories</a></h3>
-      <h4><a href="#"></a>September 2022</a></h4>
-      <h3><a href="#"></a>Archives</a></h3>
-      <h4><a href="#"></a>August 2022</a></h4>
-      <h3><a href="#"></a>Categories</a></h3>
-      <h4><a href="#">July 2022</a></h4>
+    <div class= "container">
+      <h1>Fleo Black</h1>
+      <h1 class="">Successful Living for the Millennial Man</h1>
     </div>
 
     <div class="topcontent seperator gradient">
-      <h1 style="font-size: 48pt;">“Food, freedom, family, faith, and fitness. All these things make up who I am.”</h1>
-    </div>
-    <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">Social Media</div>
+      </div>
+    
   </div>
   <!--Start of Logo Section-->
   <div class="feetsection">
@@ -95,6 +85,44 @@
       </div>
     </div>
   </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 <script src="js/index.js"></script>
 </html>
