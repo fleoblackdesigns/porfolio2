@@ -185,10 +185,7 @@ a:active {
   border-color: rgb(160, 0, 0);
 }
 
-.footer1 {
-  background-color: lightblue;
-  
-}
+
 
 .mainfooter {
   margin-top: 30px;
@@ -203,10 +200,7 @@ a:active {
   align-items: center;
 }
 
-.footer2 {
-  margin: 1px;
-  color: #F1F3F9;
-  }
+
 
 .topbar {
   background-color: lightpink;
@@ -310,10 +304,10 @@ img{
   flex-direction: row;
   justify-content: center;
 }
-
+/* Footer Section */
 .feetsection {
   margin-top: 30px;
-  height: 150px;
+  height: 200px;
   border-width: 1px;
   border-style: solid;
   border-color: #f44336;
@@ -321,6 +315,15 @@ img{
   flex-direction: row;
   justify-content: space-between;
 }
+.footer1 {
+  background-color: lightblue;
+  
+}
+.footer2 {
+  margin: 1px;
+  color: #F1F3F9;
+  }
+
 
 @media screen and (min-width:  480px) {
 #footer3 {float: left;}
