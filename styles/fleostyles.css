@@ -30,7 +30,6 @@ h2, h3, h4, h5, h6 {
   padding: 5px;
   border-radius: 1px;
   border-style: solid;
-  border-color: #F20544;
   flex-direction: column;
 }
 
@@ -296,11 +295,10 @@ img{
 /* Footer Section */
 
 .mainfooter {
-  margin-top: 30px;
+  margin-top: 1px;
   height: 200px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(160, 0, 0);
   background-color: #1B1F27;
   display: flex;
   flex-direction: row;
@@ -359,7 +357,6 @@ p.animate {
   height: 200px;
   border-width: 1px;
   border-style: solid;
-  border-color: #f44336;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
