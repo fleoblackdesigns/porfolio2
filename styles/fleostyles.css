@@ -1,9 +1,16 @@
 /* unofficial stylesheet for Porfolio */
+body {
+  /* This style below will be inherited */
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 24px;
+  background-color: rgb(0, 0, 0);
+}
+
 p {
-  margin-top: 0;
-  margin-bottom: 0;
   color: #FDFDFD;
-  font-family: 'Candal' sans-serif;
+  font-family: 'Advent Pro' sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -80,7 +87,7 @@ h2, h3, h4, h5, h6 {
     width: 100px;
   }
 
-.myworkHeading {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.myworkHeading {font-family: 'Advent Pro', SF Pro, Geneva, Verdana, sans-serif;
   color: #4e4e4e; 
   border-color: red;
   border-style: solid;
@@ -130,14 +137,7 @@ h2, h3, h4, h5, h6 {
 
 
 
-body {
-  /* This style below will be inherited */
-  margin: 0;
-  padding-top: 55px;
-  padding-left: 80px;
-  padding-right: 24px;
-  background-color: rgb(0, 0, 0);
-}
+
 
 /* sitewide links */
 a:visited {
@@ -187,18 +187,7 @@ a:active {
 
 
 
-.mainfooter {
-  margin-top: 30px;
-  height: 200px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(160, 0, 0);
-  background-color: #1B1F27;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 
 
@@ -266,7 +255,7 @@ img{
 
 
 .blogcontent {
-  background-color: lightblue;
+  background-color: #23272F;
   width: 200px;
   padding:5px
   }
@@ -305,6 +294,66 @@ img{
   justify-content: center;
 }
 /* Footer Section */
+
+.mainfooter {
+  margin-top: 30px;
+  height: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(160, 0, 0);
+  background-color: #1B1F27;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion {
+  background-color: #F20544;
+  color: #FFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #A6032F;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #1B1F27;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+p.animate {
+  background:#F20544;
+  height:100px;
+  width:200px;
+  position:absolute;
+}
+
+
 .feetsection {
   margin-top: 30px;
   height: 200px;
@@ -316,7 +365,7 @@ img{
   justify-content: space-between;
 }
 .footer1 {
-  background-color: lightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 .footer2 {
