@@ -13,10 +13,23 @@ p {
   font-family: 'Advent Pro' sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: 'Advent Pro', 'SF Pro', 'Candal' sans-serif;
-  }
 
+/* sitewide links */
+a:link {
+  color: #F20544;
+ }
+a:visited {
+  color: #f2791d;
+}
+/* mouse over link */
+a:hover {
+  color: #F2B200;
+}
+
+/* selected link */
+a:active {
+  color: #F20544;
+ }
 
 .topNav {
   margin-top: 30px;
@@ -137,24 +150,6 @@ h2, h3, h4, h5, h6 {
 
 
 
-
-/* sitewide links */
-a:visited {
-  color: #f2791d;
-}
-/* mouse over link */
-a:hover {
-  color: #F2B200;
-}
-
-/* selected link */
-a:active {
-  color: #F20544;
- }
-
- a:link {
-  color: #F20544;
- }
 
 
 
@@ -354,7 +349,7 @@ p.animate {
 
 .feetsection {
   margin-top: 30px;
-  height: 200px;
+  height: 180px;
   border-width: 1px;
   border-style: solid;
   display: flex;
