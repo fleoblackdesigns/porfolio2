@@ -3,7 +3,8 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   color: #FDFDFD;
-  }
+  font-family: 'Candal' sans-serif;
+}
 
 h2, h3, h4, h5, h6 {
   font-family: 'Advent Pro', 'SF Pro', 'Candal' sans-serif;
@@ -65,7 +66,7 @@ h2, h3, h4, h5, h6 {
   border-radius: 1px;
   border-style: solid;
   border-color: aqua;
-  height: 130px;
+  height: 140px;
 
 }
 #gridsample {
@@ -227,6 +228,30 @@ a:active {
   cursor: pointer;
   float: right;
 }
+.CTA2 {
+  background-color: #23272F;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+ 
+ .heroImg {
+    background-color: #EBEBEB;
+    padding: 50px 15px;
+  }
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
 
 .CTA:hover {
   background-color: #f44336;
