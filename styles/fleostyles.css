@@ -114,12 +114,24 @@ a:active {
   border-radius: 1px; 
   border-color: red;
   border-style: solid; 
-  font: 500; 
+  font: 600; 
   color: white;
   align-content: flex-start;
   font-family: Abril Fatface;
   text-align: center;
   }
+
+  #myworkDesc2 {
+    border-radius: 1px; 
+    border-color: red;
+    border-style: solid; 
+    font: 600; 
+    color: white;
+    align-content: flex-start;
+    font-family: 'Advent Pro';
+    text-align: center;
+    }
+
 
   .ProjectDesc {
     border-radius: 1px; 
@@ -338,14 +350,12 @@ img{
   transition: max-height 0.2s ease-out;
 }
 
-
 p.animate {
   background:#F20544;
   height:100px;
   width:200px;
   position:absolute;
 }
-
 
 .feetsection {
   margin-top: 30px;
@@ -358,7 +368,7 @@ p.animate {
 }
 .footer1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+ 
 }
 .footer2 {
   margin: 1px;
