@@ -426,8 +426,10 @@ img{
 
 .panel {
   padding: 0 18px;
-  background-color: white;
   max-height: 0;
+  border-color: white;
+  border-style: solid;
+  border-radius: 1px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
