@@ -13,6 +13,8 @@ p {
   font-family: 'Advent Pro' sans-serif;
 }
 
+h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;}
 
 /* sitewide links */
 a:link {

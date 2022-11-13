@@ -23,6 +23,8 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+
+
 //Animate Element
 $(document).ready(function(){
     $("button").click(function(){
