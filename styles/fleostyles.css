@@ -10,8 +10,12 @@ body {
 
 p {
   color: #FDFDFD;
-  font-family: 'Advent Pro' sans-serif;
-}
+  }
+
+p.project {
+    color: #FDFDFD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
 h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center;}
@@ -25,15 +29,48 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-  color: #F2B200;
+  color: #ffe600;
 }
 
 /* selected link */
 a:active {
   color: #F20544;
  }
+
+/*new navigation*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #23272F;
+  font-family: 'Abril Fatface', Tahoma, serif;
+  }
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #F20544;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #F2B200;
+}
+
+.active {
+  background-color: #F20544;
+}
+a:visited {
+  color: #f2791d;
+}
+
 /* HEADER */
-/* NOTE: I only tested this on Google Chrome.*/
+/* NOTE: dynamic Text.*/
 
 .containerMe{
   width: 100%;
@@ -41,13 +78,14 @@ a:active {
   margin-right: auto;
   text-align: center;
   margin-top: 100px;
+  background-color: #1B1F27;
 }
 
 .container h1:nth-child(1) {
-  color: #355c7d;
-  font-family: 'Fira Code', monospace;
+  color: #F1F3F9;
+  font-family: 'Abril Fatface', Tahoma, Geneva, Verdana, serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 20pt;
   margin: 0 0 0 35%;
   text-align: left;
   white-space: nowrap;
@@ -62,8 +100,8 @@ a:active {
   margin: 0 auto auto auto;
   background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
   font-weight: 800;
-  font-size: 50px;  
-  width: 430px;
+  font-size: 60px;  
+  width: 640px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
@@ -119,6 +157,7 @@ a:active {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
+  font-family:'Abril Fatface', Times, serif
 }
 
 .flexContainer{
@@ -298,18 +337,19 @@ a:active {
   transition-duration: 0.4s;
   cursor: pointer;
   float: right;
+  font-family: 'Abril Fatface';
 }
 .CTA2 {
   background-color: #23272F;
   border-radius: 8px;
   color: white;
   padding: 12px 16px;
-  text-align: center;
   text-decoration: none;
   font-size: 14px;
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
+  font-family: 'Abril Fatface';
   }
  
  .heroImg {
